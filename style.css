@@ -1,0 +1,249 @@
+body {
+    display: flex;
+    background-color: rgb(104, 252, 67);
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hituji {
+    position: relative;
+}
+
+.hituji-- {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    background-color: #fff;
+    height: 100px;
+    bottom: 35%;
+    left: 280px;
+    z-index: 999;
+}
+
+.hituji-head {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 5;
+    right: -30px;
+    top: -30px;
+}
+
+.hituji-face {
+    background-color: #f1bc937c;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hituji-eye-left {
+    background-color: #000;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.hituji-eye-right {
+    background-color: #000;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.hituji-norse {
+    background-color: #000;
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hituji-mouth {
+    background-color: red;
+    width: 40px;
+    height: 3px;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hituji-foot1 {
+    height: 60px;
+    width: 4px;
+    background-color: #f1bc93;
+    position: absolute;
+    bottom: -55px;
+    left: 40px;
+    transform: rotate(30deg);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.hituji-foot2 {
+    height: 60px;
+    width: 5px;
+    background-color: #f1bc93;
+    position: absolute;
+    bottom: -55px;
+    left: 80px;
+    transform: rotate(-30deg);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.hituji-foot3 {
+    height: 60px;
+    width: 5px;
+    background-color: #f1bc93;
+    position: absolute;
+    bottom: -55px;
+    left: 200px;
+    transform: rotate(30deg);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.hituji-foot4 {
+    height: 60px;
+    width: 5px;
+    background-color: #f1bc93;
+    position: absolute;
+    bottom: -55px;
+    left: 240px;
+    transform: rotate(-30deg);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.hituji-sippo {
+    height: 70px;
+    width: 5px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    transform: rotate(37deg);
+
+}
+
+
+
+
+.white-saku2 {
+    background-color: #8f775f;
+    height: 72px;
+    width: 5px;
+    position: absolute;
+    top: 36%;
+    right: -710px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.white-saku3 {
+    background-color: #8f775f;
+    height: 73px;
+    width: 5px;
+    position: absolute;
+    top: 40%;
+    right: -720px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.white-saku4 {
+    background-color: #8f775f;
+    height: 70px;
+    width: 5px;
+    position: absolute;
+    top: 45%;
+    right: -730px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.white-saku5 {
+    background-color: #8f775f;
+    height: 70px;
+    width: 5px;
+    position: absolute;
+    top: 50%;
+    right: -740px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.white-saku6 {
+    background-color: #8f775f;
+    height: 70px;
+    width: 5px;
+    position: absolute;
+    top: 55%;
+    right: -750px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.white-saku7 {
+    background-color: #8f775f;
+    height: 70px;
+    width: 5px;
+    position: absolute;
+    top: 60%;
+    right: -760px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.white-saku8 {
+    background-color: #8f775f;
+    height: 78px;
+    width: 5px;
+    position: absolute;
+    top: 67%;
+    right: -778px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.white-saku9 {
+    background-color: #8f775f;
+    height: 5px;
+    width: 305px;
+    position: absolute;
+    top: 485px;
+    right: -895px;
+    transform: rotate(77deg);
+    z-index: 600;
+    /* cursor: pointer; */
+}
+
+/* 
+.hituji--:hover {
+    bottom: 60%;
+    right: -70%;
+    left: 500px;
+    transition: 7s;
+} */
+
+.click {
+    cursor: pointer;
+}
+
+
+.hituji--.is-active {
+    bottom: 60%;
+    right: -70%;
+    left: 500px;
+    transition: 7s;
+}
